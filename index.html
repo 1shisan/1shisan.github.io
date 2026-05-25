@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Tool Scout - Honest Reviews & Guides for AI Tools in 2026</title>
-    <meta name="description" content="Independent reviews, comparisons, and guides for the best AI tools in 2026. Find the perfect AI tool for your workflow.">
+    <meta name="description" content="Independent reviews, comparisons, and guides for the best AI tools in 2026. Find the perfect AI tool for your workflow with our expert analysis.">
+    <meta name="keywords" content="ai tools, best ai tools 2026, ai tool reviews, ai software, artificial intelligence tools">
+    <link rel="canonical" href="https://YOURDOMAIN.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- ========== GOOGLE ADSENSE SCRIPT (Replace with your code) ========== -->
+    <!-- Replace ca-pub-xxxxxxxxxxxxxxxx with your actual AdSense publisher ID -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
+     crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -53,7 +61,7 @@
                 </div>
                 <div class="hero-card hero-card-3">
                     <span class="card-icon">💻</span>
-                    <span class="card-label">GitHub Copilot</span>
+                    <span class="card-label">Copilot</span>
                     <span class="card-rating">★ 4.5</span>
                 </div>
             </div>
@@ -65,21 +73,22 @@
         <div class="container">
             <h2 class="section-title">Featured Reviews</h2>
             <div class="posts-grid" id="featured-posts">
-                <!-- Articles loaded via JS -->
+                <!-- Populated by JavaScript from articles.json -->
             </div>
         </div>
     </section>
 
-    <!-- ========== SIDEBAR + RECENT ========== -->
+    <!-- ========== MAIN CONTENT + SIDEBAR ========== -->
     <div class="container content-row">
         <main class="main-content">
             <section class="section">
                 <h2 class="section-title">Latest Articles</h2>
                 <div class="posts-list" id="recent-posts">
-                    <!-- Articles loaded via JS -->
+                    <!-- Populated by JavaScript from articles.json -->
                 </div>
             </section>
         </main>
+
         <aside class="sidebar">
 
             <!-- About Card -->
@@ -96,8 +105,16 @@
                     <li><strong>ChatGPT Pro</strong> — Best All-Rounder</li>
                     <li><strong>Midjourney v7</strong> — Best Image Gen</li>
                     <li><strong>Claude 4</strong> — Best for Writing</li>
-                    <li><strong>GitHub Copilot X</strong> — Best for Coding</li>
+                    <li><strong>Copilot X</strong> — Best for Coding</li>
                     <li><strong>Notion AI 2.0</strong> — Best Productivity</li>
+                </ul>
+            </div>
+
+            <!-- Article Categories -->
+            <div class="sidebar-card">
+                <h3>📂 Categories</h3>
+                <ul class="sidebar-list" id="category-list">
+                    <!-- Populated by JavaScript -->
                 </ul>
             </div>
 
@@ -113,35 +130,29 @@
 
             <!-- ========== GOOGLE ADSENSE - SIDEBAR ========== -->
             <div class="sidebar-ad">
-                <!-- Google AdSense Ad Unit -->
-                <!-- Responsive Sidebar Ad - 300x250 -->
+                <!-- Replace ca-pub-xxxxxxxxxxxxxxxx with your AdSense publisher ID -->
                 <ins class="adsbygoogle"
                      style="display:block"
                      data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
                      data-ad-slot="xxxxxxxxxx"
                      data-ad-format="auto"
                      data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </div>
 
         </aside>
     </div>
 
-    <!-- ========== BOTTOM AD ========== -->
+    <!-- ========== FOOTER AD ========== -->
     <div class="container ad-container">
-        <!-- Google AdSense Ad Unit -->
-        <!-- Footer Banner Ad - 728x90 -->
+        <!-- Replace ca-pub-xxxxxxxxxxxxxxxx with your AdSense publisher ID -->
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
              data-ad-slot="xxxxxxxxxx"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
 
     <!-- ========== FOOTER ========== -->
@@ -169,95 +180,50 @@
     </footer>
 
     <script>
-        // --- Article Data ---
-        const articles = [
-            {
-                title: "Top 10 AI Tools in 2026 You Need to Try",
-                excerpt: "From ChatGPT to Midjourney v7 — we round up the most powerful and practical AI tools available this year.",
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80",
-                url: "/top-ai-tools-2026.html",
-                date: "May 20, 2026",
-                category: "Guides",
-                featured: true
-            },
-            {
-                title: "ChatGPT Pro vs Claude 4: Which Is Better?",
-                excerpt: "We pit OpenAI's flagship against Anthropic's latest in a head-to-head battle across writing, coding, and reasoning.",
-                image: "https://images.unsplash.com/photo-1692035116197-01b8fad76e3d?w=600&q=80",
-                url: "#",
-                date: "May 15, 2026",
-                category: "Comparisons",
-                featured: true
-            },
-            {
-                title: "Midjourney v7 Review: AI Art Has Never Looked This Good",
-                excerpt: "Midjourney's latest version pushes photorealistic generation to new heights. Here's our hands-on review.",
-                image: "https://images.unsplash.com/photo-1547954575-855750c57bd3?w=600&q=80",
-                url: "#",
-                date: "May 10, 2026",
-                category: "Reviews",
-                featured: true
-            },
-            {
-                title: "Best AI Writing Assistants for Bloggers in 2026",
-                excerpt: "Jasper, Copy.ai, Writesonic — we tested 8 tools so you can find the perfect writing partner.",
-                image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80",
-                url: "#",
-                date: "May 5, 2026",
-                category: "Reviews",
-                featured: false
-            },
-            {
-                title: "GitHub Copilot X Review: Can AI Really Code Now?",
-                excerpt: "Microsoft's AI pair programmer has evolved. We tested it on real-world projects to see if it lives up to the hype.",
-                image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80",
-                url: "#",
-                date: "April 28, 2026",
-                category: "Reviews",
-                featured: false
-            },
-            {
-                title: "Notion AI 2.0 vs Taskade AI: Productivity Showdown",
-                excerpt: "Two AI-powered productivity platforms go head to head. Which one should you build your workflow around?",
-                image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&q=80",
-                url: "#",
-                date: "April 20, 2026",
-                category: "Comparisons",
-                featured: false
-            }
-        ];
+        // ===== Load Articles from JSON =====
+        fetch('/articles.json')
+            .then(res => res.json())
+            .then(articles => {
+                // --- Render Featured Posts ---
+                const featuredContainer = document.getElementById('featured-posts');
+                const featured = articles.filter(a => a.featured);
+                featured.forEach(article => {
+                    featuredContainer.innerHTML += `
+                        <article class="post-card">
+                            <div class="post-card-image" style="background-image: url('${article.image}')"></div>
+                            <div class="post-card-body">
+                                <span class="post-category">${article.category}</span>
+                                <h3><a href="${article.url}">${article.title}</a></h3>
+                                <p>${article.excerpt}</p>
+                                <span class="post-date">${article.date}</span>
+                            </div>
+                        </article>
+                    `;
+                });
 
-        // --- Render Featured Posts ---
-        const featuredContainer = document.getElementById('featured-posts');
-        const featured = articles.filter(a => a.featured);
-        featured.forEach(article => {
-            featuredContainer.innerHTML += `
-                <article class="post-card">
-                    <div class="post-card-image" style="background-image: url('${article.image}')"></div>
-                    <div class="post-card-body">
-                        <span class="post-category">${article.category}</span>
-                        <h3><a href="${article.url}">${article.title}</a></h3>
-                        <p>${article.excerpt}</p>
-                        <span class="post-date">${article.date}</span>
-                    </div>
-                </article>
-            `;
-        });
+                // --- Render All Posts ---
+                const recentContainer = document.getElementById('recent-posts');
+                articles.forEach(article => {
+                    recentContainer.innerHTML += `
+                        <article class="post-row">
+                            <div class="post-row-img" style="background-image: url('${article.image}')"></div>
+                            <div class="post-row-body">
+                                <span class="post-category">${article.category}</span>
+                                <h3><a href="${article.url}">${article.title}</a></h3>
+                                <p>${article.excerpt} <span class="post-date">${article.date}</span></p>
+                            </div>
+                        </article>
+                    `;
+                });
 
-        // --- Render Recent Posts ---
-        const recentContainer = document.getElementById('recent-posts');
-        articles.forEach(article => {
-            recentContainer.innerHTML += `
-                <article class="post-row">
-                    <div class="post-row-img" style="background-image: url('${article.image}')"></div>
-                    <div class="post-row-body">
-                        <span class="post-category">${article.category}</span>
-                        <h3><a href="${article.url}">${article.title}</a></h3>
-                        <p>${article.excerpt} <span class="post-date">${article.date}</span></p>
-                    </div>
-                </article>
-            `;
-        });
+                // --- Render Categories ---
+                const categoryList = document.getElementById('category-list');
+                const cats = [...new Set(articles.map(a => a.category))];
+                cats.forEach(cat => {
+                    const count = articles.filter(a => a.category === cat).length;
+                    categoryList.innerHTML += `<li>${cat} <span style="color:#9a9aaa">(${count})</span></li>`;
+                });
+            });
 
         // --- Mobile Nav Toggle ---
         document.getElementById('nav-toggle').addEventListener('click', function() {
