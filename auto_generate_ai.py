@@ -3,11 +3,11 @@
 import os, json, datetime, subprocess, random, requests, re, time
 
 GITHUB_USER = "1shisan"
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "你的Token"
 YOUR_DOMAIN = "ai.chenqiwx.cn"
 REPO_NAME = "1shisan.github.io"
 ADSENSE_ID = "ca-pub-xxxxxxxxxxxxxxxx"
-DEEPSEEK_API_KEY = "sk-71eebeb3498d4bde8c370f34573e4c81"
+DEEPSEEK_API_KEY = "sk-你的Key"
 
 REPO_PATH = "/www/" + REPO_NAME
 API_URL = "https://api.deepseek.com/v1/chat/completions"
